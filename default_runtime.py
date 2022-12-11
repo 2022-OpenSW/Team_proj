@@ -10,6 +10,8 @@ data_root = 'C:/Git_dir/mmdetection/Mask_RCNN_dataset/'
 CLASSES = ('onepiece(dress)', 'skirt', 'pants', 'jumpsuite', 
            'shirt', 'sweater', 'blouse', 'cardigan', 'jumper', 'jacket', 'coat' )
 
+mmdet.datasets.coco.CocoDataset.CLASSES = ('onepiece(dress)', 'skirt', 'pants', 'jumpsuite',
+                                           'shirt', 'sweater', 'blouse', 'cardigan', 'jumper', 'jacket', 'coat')
 img_norm_cfg = dict(
     mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
 train_pipeline = [
