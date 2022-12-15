@@ -49,7 +49,7 @@
 1. Clone mmdetection in local
 2. default_runtime.py, coco_detection.py, coco.py (in base codes) 파일을 이 레포지토리 코드로 대체<br>
 _mmdetection/configs/\_base\_/default_runtime.py_<br>
-_mmdetection/configs/\_base\_/datasets/coco_detection.py<br>
+_mmdetection/configs/\_base\_/datasets/coco_detection.py_<br>
 _mmdetection/mmdet/datasets/coco.py_<br>
 3. mmdetecion 디렉토리에서 아래 코드 실행
 
