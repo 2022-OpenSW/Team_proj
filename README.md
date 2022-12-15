@@ -30,8 +30,10 @@
     1. Train 데이터셋에는 **모든 클래스의 최소 1개 폴더**가 포함되도록
     2. onepiece(dress)와 같이 4개(다수)의 폴더인 경우, 남은 3개의 폴더를 Train, Val, Test에 랜덤 배치
   - Train, Val, Test dataset **동일 데이터 중복 사용 X**
+* 데이터셋 준비
+  - Clone 해온 mmdetection 내 Mask_RCNN_dataset 폴더 생성 후 압축 해제 (하단 사진 참고)
 * 경로 설정
-  - coco_detection.py 상의 경로에 맞게 구성<br>
+  - coco_detection.py 파일에 위 폴더의 절대경로 지정<br>
   ![image](https://user-images.githubusercontent.com/104143072/207796504-27d05890-836b-46ad-ac9e-17b0a38ad16a.png)<br>
 
   - 각각의 instances_default.json 내의 file_name 경로에 맞게 구성<br>
